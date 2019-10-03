@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package greeting;
+
+message Request {
+    string data = 1;
+}
+
+message Response {
+    string data = 1;
+    string id = 2;
+    int64 time = 3;
+}
+
+service Greeting {
+    rpc SayHi (Request) returns (Response);
+}
