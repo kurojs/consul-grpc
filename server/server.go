@@ -7,9 +7,9 @@ import (
 	"time"
 
 	uuid "github.com/satori/go.uuid"
-	"gitlab.360live.vn/zpi/consul/common"
-	"gitlab.360live.vn/zpi/consul/consul"
-	greeting "gitlab.360live.vn/zpi/consul/grpc-gen"
+	"github.com/kurojs/consul-grpc/common"
+	"github.com/kurojs/consul-grpc/consul"
+	greeting "github.com/kurojs/consul-grpc/grpc-gen"
 	"google.golang.org/grpc"
 )
 

@@ -1,7 +1,7 @@
 package common
 
 import (
-	"gitlab.360live.vn/zpi/consul/consul"
+	"github.com/kurojs/consul-grpc/consul"
 	"google.golang.org/grpc"
 )
 

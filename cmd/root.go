@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/spf13/cobra"
-	"gitlab.360live.vn/zpi/consul/server"
+	"github.com/kurojs/consul-grpc/server"
 )
 
 var (

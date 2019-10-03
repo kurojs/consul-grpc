@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.360live.vn/zpi/consul/cmd"
+	"github.com/kurojs/consul-grpc/cmd"
 )
 
 func main() {

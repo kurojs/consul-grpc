@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"gitlab.360live.vn/zpi/consul/common"
-	greeting "gitlab.360live.vn/zpi/consul/grpc-gen"
+	"github.com/kurojs/consul-grpc/common"
+	greeting "github.com/kurojs/consul-grpc/grpc-gen"
 )
 
 func Test_Loadbalance(t *testing.T) {
