@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	uuid "github.com/satori/go.uuid"
 	"github.com/kurojs/consul-grpc/common"
 	"github.com/kurojs/consul-grpc/consul"
 	greeting "github.com/kurojs/consul-grpc/grpc-gen"
+	uuid "github.com/satori/go.uuid"
 	"google.golang.org/grpc"
 )
 

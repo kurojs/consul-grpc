@@ -5,6 +5,7 @@ import (
 	"google.golang.org/grpc"
 )
 
+// GrpcClient ...
 type GrpcClient struct{}
 
 //NewGrpcClient ...
@@ -15,6 +16,7 @@ func NewGrpcClient(address string) (*grpc.ClientConn, error) {
 	return grpc.Dial(address, opts...)
 }
 
+// NewGrpcClientWithLoadBalance ...
 func NewGrpcClientWithLoadBalance(serviceName, tag, address string) (*grpc.ClientConn, error) {
 	resolver, err := consul.NewResolver(serviceName, tag)
 	if err != nil {
